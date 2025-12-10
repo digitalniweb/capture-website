@@ -1,0 +1,16 @@
+{
+	"name": "website-screenshots",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "index.ts",
+	"scripts": {
+		"start": "node index.ts"
+	},
+	"dependencies": {
+		"capture-website": "^5.1.0",
+		"sharp": "^0.34.5"
+	}
+}

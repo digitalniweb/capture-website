@@ -21,6 +21,7 @@ let styles = [`.animate-box{opacity: 1 !important;}`];
 
 let desktopOptions: myOptions = {
 	width: 1920, // website width while capture
+	height: 1080,
 	scaleFactor: 1,
 	preloadLazyContent,
 	styles,
@@ -30,11 +31,12 @@ let desktopOptions: myOptions = {
 		width: 1920,
 		height: 1080,
 	},
-	finalWidth: 700, // final width of image
+	finalWidth: 650, // final width of image
 };
 
 let tabletOptions: myOptions = {
 	width: 1280,
+	height: 800,
 	scaleFactor: 1,
 	preloadLazyContent,
 	styles,
@@ -44,11 +46,12 @@ let tabletOptions: myOptions = {
 		width: 1280,
 		height: 800,
 	},
-	finalWidth: 360,
+	finalWidth: 355,
 };
 
 let mobileOptions: myOptions = {
 	width: 360,
+	height: 800,
 	scaleFactor: 1,
 	preloadLazyContent,
 	styles,
@@ -58,7 +61,7 @@ let mobileOptions: myOptions = {
 		width: 360,
 		height: 800,
 	},
-	finalWidth: 150,
+	finalWidth: 145,
 };
 
 let devices = [
